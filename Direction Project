@@ -1,0 +1,33 @@
+Projet Rush Hour
+
+
+- création/gestion du plateau
+  
+  	- niveau de difficulté : nbr voiture/ nbr camion
+  	
+  	- création du tableau 
+  	
+  	- placement des véhicules 
+  	
+	
+- résolution du jeu
+	
+	- Algo résolution
+		
+		- Si la position courante est finale, afficher la liste des mouvements qui a permis d’y 			arriver 
+		
+		- Sinon, faire la liste de tous les mouvements possibles depuis cette configuration : 			un mouvement est un mouvement élémentaire d’un véhicule
+		
+		- On ne garde dans cette liste que les mouvements qui amènent dans une position qui n’a 			pas encore été rencontrée
+		
+		- Pour chacun de ces mouvements restants, calculez la nouvelle configuration, qu’il 		faudra étudier par la suite, sauf si on trouve une solution avant.
+
+- affichage du plateau
+
+Structure de données :
+
+- Plateau : Tableau 6*6
+
+- Véhicules :
+
+- Struct. nécessaire pour l'algo.
